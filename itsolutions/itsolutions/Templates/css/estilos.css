@@ -1,0 +1,272 @@
+html {
+}
+
+body > header {
+	text-align:center;
+	background: black;
+}
+
+body { 
+	background: black;
+	background-image: url('../images/static.gif');
+	/*background-size: contain;*/
+
+}
+
+body > footer {
+	text-align:center;
+	background: lightgrey;
+	font-family: monospace;
+	background: rgba(255, 255, 255, 0.4);
+	margin: 10px   0px   10px   0px;
+}
+
+
+/* ----------------------menu-------------------------- */
+
+div.menu {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+#opciones {
+	text-align:center;
+	/*background-image: url('../images/sea.gif')*/
+}
+
+
+#opciones li {
+	margin: 30px   10px   30px   10px;
+	display: inline-block;
+	padding:0 30px;
+}
+
+#opciones a {
+	text-decoration:none;
+	font-weight: bold;
+	color:black;
+	font-size: 25px;
+	font-family: monospace;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+/* ----------------------Our Home-------------------------- */
+
+div.home {
+	text-align:center;
+	background: lightgreen;
+	padding: 10px   10px   10px   10px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+div.home1 {
+	background: black;
+	padding: 10px   10px   10px   10px;
+	margin: 10px   10px   10px   10px;
+}
+
+div.home3 {
+	height: 710px;
+	width: 15%;
+	float: left;
+	background: white;
+}
+
+#home3{
+	height: 710px;
+	width: 100%;
+}
+
+div.home2 {
+	height: 710px;
+	width: 15%;
+	float: right;
+	background: white;
+	text-align: left;
+}
+
+table.homeTable {
+	margin: 0 auto;
+}
+
+table.homeTable td {
+	padding: 1px   1px   1px   1px;
+	font-family: monospace;
+	width: 25%;
+	height: 350px;
+	color: white
+}
+
+table.homeTable td p{
+	color: red;
+}
+
+table.homeTable td #box1{
+	color: gold;
+}
+
+table.homeTable img {
+	width: 100%;
+	height: 350px;
+}
+
+
+
+/* ----------------------Our Bussines-------------------------- */
+
+div.business {
+	text-align:center;
+	background: lightgrey;
+	padding: 10px   10px   10px   10px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+div.business1 {
+	background: lightgrey;
+	padding: 10px   10px   10px   10px;
+	margin: 10px   10px   10px   10px;
+}
+
+table.businessTable {
+	margin: 0 auto;
+}
+
+table.businessTable td {
+	padding: 1px   1px   1px   1px;
+	font-family: monospace;
+	width: 50%;
+	height: 350px;
+}
+
+table.businessTable td p {
+	color: white;
+}
+
+table.businessTable img {
+	width: 100%;
+	height: 350px;
+}
+
+
+
+/* ----------------------Our Company-------------------------- */
+
+div.company {
+	text-align:center;
+	background: rgba(255, 255, 255, 0.4);
+	padding: 10px   10px   10px   10px;
+}
+
+div.company1 {
+	background: lightgreen;
+	padding: 10px   10px   10px   10px;
+	margin: 10px   10px   10px   10px;
+}
+
+div.companybanner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+img.banner {
+	width: 100%;
+	height: 150px;
+}
+
+table.companyTable {
+	margin: 0 auto;
+}
+
+table.companyTable td {
+	padding: 1px   1px   1px   1px;
+	font-family: monospace;
+	width: 50%;
+	height: 350px;
+}
+
+table.companyTable td p {
+	color: red;
+}
+
+table.companyTable img {
+	width: 100%;
+	height: 350px;
+}
+
+
+/* ----------------------Location-------------------------- */
+
+div.location {
+	background: rgba(255, 255, 255, 0.4);
+	padding: 10px   10px   10px   10px;
+}
+
+div.location1 {
+	background: lightgreen;
+	margin: 10px   10px   10px   10px;
+	padding: 10px   10px   10px   10px;
+	text-align: top;
+	height: 350px;
+}
+
+#map {
+        height: 350px;
+	width: 65%;
+	float: right;
+       }
+
+#mapDer {
+	height: 350px;
+       }
+
+img.contacto {
+	width: 25px;
+	height: 25px;
+	}
+
+div.mapDer p {
+	color: black;
+	font-size:23px;
+	font-family: monospace;
+}
+
+table.contactos p {
+	color: black;
+	font-size:17px;
+	font-family: monospace;
+	font-weight: demi-bold;
+}
+
+table.contactos {
+	margin: 0 auto;
+	border-spacing: 8px 13px;
+}
+
+table.contactos tr{
+	width: 25px;
+	height: 25px;
+}
+
+
+/* ----------------------fuentes-------------------------- */
+
+h1 {
+	color: black;
+	font-family: monospace;
+	text-align:center;
+	text-shadow: 1px 1px 1px #000;
+}
+
+img.up {
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom:15px;
+	right:15px;
+}
+
+img.option {
+	width: 50px;
+	height: 50px;
+}
+

@@ -1,0 +1,62 @@
+{% load staticfiles %}    
+<html>
+ 
+<html lang="es">
+ 
+<head>
+	<title>WorldWeb</title>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="{% static 'css/estilos.css' %}" />
+	<link rel="shortcut icon" href="{% static 'images/home.png' %}" />
+</head>
+ 
+<body>	<a name="Menu"></a>
+	<a href="#Menu"><img class="up" src="{% static 'images/up.png' %}"/></a>
+
+	<div class= "menu">
+ 		<ul id= "opciones">
+  			<li><a href="#Home"><img class="option" src="{% static 'images/home.png' %}"/></a></li>
+  			<li><a href="#Our Business"><img class="option" src="{% static 'images/business.png' %}"/></a></li>
+  			<li><a href="#Our Company"><img class="option" src="{% static 'images/world.png' %}"/></a></li>
+			<li><a href="#Location"><img class="option" src="{% static 'images/location.png' %}"/></a></li>
+ 		</ul>
+	</div>
+
+
+
+	
+        <div class= "location">
+		<A name="Location"></A><h1>Ubicacion</h1>
+		<div class= "location1">
+ 
+    			<div id="map"></div>
+    				<script>
+      				function initMap() {
+        			var lugar = {lat: -34.6356363, lng: -58.3649009};
+        			var map = new google.maps.Map(document.getElementById('map'), {
+          				zoom: 19,
+          				center: lugar
+        			});
+        			var marker = new google.maps.Marker({
+          				position: lugar,
+          				map: map
+        			});
+      				}
+    				</script>
+    				<script async defer
+    				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG7GC7KNo1IQ-3foOTCbBnT2Fh0Bh06_M&callback=initMap">
+    				</script>
+
+
+		</div>
+    	</div>
+
+    	<footer>
+		<br></br>
+		<br></br>
+		&copyDiego Sebastian Lezcano 2018
+	</footer>
+</body>
+</html>
+
+
